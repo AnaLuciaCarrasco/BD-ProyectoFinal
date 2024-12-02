@@ -1,0 +1,9 @@
+{
+	"name": "acarrascol-datafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4afb0ff9-0228-434f-b14d-023db8e79f54",
+		"tenantId": "935d1d14-e789-4d5c-b75a-8dcc1c0cf767"
+	}
+}
