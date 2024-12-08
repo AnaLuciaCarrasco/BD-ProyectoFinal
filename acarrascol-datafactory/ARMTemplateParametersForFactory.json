@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "acarrascol-datafactory"
+		},
+		"DataFactory_ADLS_Gen_2_accountKey": {
+			"value": ""
+		},
+		"DataFactory_AzureDatabricks_accessToken": {
+			"value": ""
+		},
+		"DataFactory_AzureDatabricks2_accessToken": {
+			"value": ""
+		},
+		"DataFactory_ADLS_Gen_2_properties_typeProperties_url": {
+			"value": "https://acarrascol.dfs.core.windows.net/"
+		},
+		"DataFactory_AzureDatabricks_properties_typeProperties_existingClusterId": {
+			"value": "1207-223300-ks8bczhr"
+		},
+		"DataFactory_AzureDatabricks2_properties_typeProperties_existingClusterId": {
+			"value": "1207-223300-ks8bczhr"
+		}
+	}
+}
