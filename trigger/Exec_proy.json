@@ -1,0 +1,25 @@
+{
+	"name": "Exec_proy",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "ejecutar todo",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2024-12-07T00:10:00",
+				"endTime": "2024-12-30T02:44:00",
+				"timeZone": "SA Pacific Standard Time"
+			}
+		}
+	}
+}
